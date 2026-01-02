@@ -1,6 +1,6 @@
 {
   "name": "@politehq/office2pdf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official Office2PDF Node.js SDK",
   "type": "module",
   "main": "./dist/index.cjs",
