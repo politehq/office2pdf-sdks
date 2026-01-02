@@ -22,7 +22,7 @@ Authentication is done via the `x-api-key` request header.
 ## Install
 
 ```bash
-npm install office2pdf
+npm install @politehq/office2pdf
 ```
 
 ---
