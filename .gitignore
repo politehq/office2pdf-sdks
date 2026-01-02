@@ -1,0 +1,88 @@
+############################
+# Node.js
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+out/
+
+*.tsbuildinfo
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+ENV/
+
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+.eggs/
+
+############################
+# Go
+############################
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+############################
+# Java / Kotlin
+############################
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+.gradle/
+build/
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# IDE / Editors
+############################
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Test / Coverage
+############################
+coverage/
+reports/
+
+############################
+# Logs
+############################
+logs/
+*.log
