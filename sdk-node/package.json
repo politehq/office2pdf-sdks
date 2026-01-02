@@ -1,5 +1,5 @@
 {
-  "name": "@office2pdf/node",
+  "name": "@politehq/office2pdf",
   "version": "0.1.0",
   "description": "Official Office2PDF Node.js SDK",
   "type": "module",
@@ -13,14 +13,30 @@
       "require": "./dist/index.cjs"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/politehq/office2pdf-sdks"
+  },
+  "homepage": "https://office2pdf.app",
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
+  "keywords": [
+    "office2pdf",
+    "pdf",
+    "docx",
+    "xlsx",
+    "pptx",
+    "convert",
+    "sdk",
+    "api"
+  ],
   "engines": {
     "node": ">=18"
   },
+  "license": "MIT",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "typecheck": "tsc -p tsconfig.json --noEmit",
@@ -35,5 +51,9 @@
     "tsup": "^8.0.1",
     "typescript": "^5.4.0",
     "vitest": "^4.0.16"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
 }
