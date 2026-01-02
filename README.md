@@ -23,14 +23,18 @@ Website: https://office2pdf.app
 
 ## Supported SDKs
 
-This repository contains the official SDKs maintained by the Office2PDF team.
+This repository contains the official SDKs maintained by the Office2PDF team.  
+All SDKs follow the same API conventions and error model for a consistent developer experience.
 
-- Node.js (TypeScript)
-- Python
-- Go
-- Java / Kotlin
+### Available now
 
-Each SDK follows the same API conventions and error model to ensure a consistent developer experience across languages.
+- Node.js (TypeScript) — ✅ Published: [`@office2pdf/node`](https://www.npmjs.com/package/@office2pdf/node)
+
+### Coming soon
+
+- Python — 🚧 In progress (tracked in Issues)
+- Go — 🚧 Planned
+- Java / Kotlin — 🚧 Planned
 
 ---
 
