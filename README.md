@@ -49,7 +49,7 @@ API keys can be created and managed from the Office2PDF dashboard.
 ## Quick Example (Node.js)
 
 ```ts
-import { Office2PDF } from "office2pdf";
+import { Office2PDF } from "@politehq/office2pdf";
 import fs from "fs";
 
 const client = new Office2PDF({
@@ -81,6 +81,7 @@ For production workloads and large documents, you should always use the streamin
 All SDKs return structured errors with the same shape and semantics.
 
 Each error includes:
+
 - A stable error code
 - A human-readable message
 - HTTP status (when applicable)
@@ -90,9 +91,9 @@ Example error codes include:
 
 - UNAUTHORIZED
 - INVALID_REQUEST
-- RATE_LIMITED  
-- QUOTA_EXCEEDED  
-- SERVER_ERROR  
+- RATE_LIMITED
+- QUOTA_EXCEEDED
+- SERVER_ERROR
 
 This makes it easy to implement consistent retry and fallback logic across services.
 
