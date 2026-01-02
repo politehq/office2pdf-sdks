@@ -2,9 +2,9 @@
 
 Official Node.js SDK for the Office2PDF API.
 
-![npm](https://img.shields.io/npm/v/@politehq/office2pdf)
-![downloads](https://img.shields.io/npm/dm/@politehq/office2pdf)
-![license](https://img.shields.io/npm/l/@politehq/office2pdf)
+![npm](https://img.shields.io/npm/v/@office2pdf/node)
+![downloads](https://img.shields.io/npm/dm/@office2pdf/node)
+![license](https://img.shields.io/npm/l/@office2pdf/node)
 
 Convert Word, Excel, and PowerPoint documents to PDF with a simple, production-ready API.
 
@@ -22,7 +22,7 @@ Authentication is done via the `x-api-key` request header.
 ## Install
 
 ```bash
-npm install @politehq/office2pdf
+npm install @office2pdf/node
 ```
 
 ---
@@ -30,7 +30,7 @@ npm install @politehq/office2pdf
 ## Quick start
 
 ```ts
-import { Office2PDF } from "@politehq/office2pdf";
+import { Office2PDF } from "@office2pdf/node";
 
 const client = new Office2PDF({
   apiKey: process.env.OFFICE2PDF_API_KEY!,

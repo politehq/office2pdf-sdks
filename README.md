@@ -49,7 +49,7 @@ API keys can be created and managed from the Office2PDF dashboard.
 ## Quick Example (Node.js)
 
 ```ts
-import { Office2PDF } from "@politehq/office2pdf";
+import { Office2PDF } from "@office2pdf/node";
 import fs from "fs";
 
 const client = new Office2PDF({
